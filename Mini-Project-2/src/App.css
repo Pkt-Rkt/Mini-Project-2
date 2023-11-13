@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: #242424;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+.gauge {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+}
+
+.gauge-circle {
+  fill: none;
+  stroke: #FFA500;
+  stroke-width: 6;/
+}
+
+.gauge-progress {
+  fill: none;
+  stroke: yellow;
+  stroke-width: 6;
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+.gauge-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFA500;
+}
